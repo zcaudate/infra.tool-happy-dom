@@ -1,0 +1,17 @@
+{
+  "name": "happy-dom-main",
+  "main": "src/main.js",
+  "scripts": {
+    "package": "rollup -c",
+    "release": "cp dist/bundle.js ../../../../resources/assets/rt.javafx/happy-dom.min.js"
+  },
+  "dependencies": {
+    "happy-dom": "2.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "17.0.0",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "11.0.1",
+    "rollup": "2.36.1"
+  }
+}
